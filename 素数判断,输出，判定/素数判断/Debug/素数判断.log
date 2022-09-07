@@ -1,2 +1,3 @@
 ﻿  源.c
+D:\VS文件\practice-in-ACM\素数判断,输出，判定\素数判断\源.c(129,14): warning C4101: “n”: 未引用的局部变量
   素数判断.vcxproj -> D:\VS文件\practice-in-ACM\素数判断,输出，判定\Debug\素数判断.exe
