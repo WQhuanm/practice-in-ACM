@@ -1,0 +1,5 @@
+﻿  源.c
+D:\VS文件\practice-in-ACM\奋勇争先\奋勇争先\源.c(12,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\VS文件\practice-in-ACM\奋勇争先\奋勇争先\源.c(6,17): warning C4101: “name”: 未引用的局部变量
+D:\VS文件\practice-in-ACM\奋勇争先\奋勇争先\源.c(6,37): warning C4101: “num”: 未引用的局部变量
+  奋勇争先.vcxproj -> D:\VS文件\practice-in-ACM\奋勇争先\Debug\奋勇争先.exe
