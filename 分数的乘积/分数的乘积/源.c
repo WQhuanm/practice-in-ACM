@@ -16,7 +16,7 @@ int main()
 		{
 			x = e1 % f1; e1 = f1; f1 = x;
 		}
-		printf("%d %d", e / e1, f / e1);
+		printf("%d %d\n", e / e1, f / e1);
 
 
 	}
