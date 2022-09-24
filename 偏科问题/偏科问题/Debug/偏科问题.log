@@ -1,5 +1,0 @@
-﻿  源.c
-D:\VS文件\practice-in-ACM\偏科问题\偏科问题\源.c(16,45): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
-D:\VS文件\practice-in-ACM\偏科问题\偏科问题\源.c(13,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-D:\VS文件\practice-in-ACM\偏科问题\偏科问题\源.c(30,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-  偏科问题.vcxproj -> D:\VS文件\practice-in-ACM\偏科问题\Debug\偏科问题.exe
