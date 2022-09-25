@@ -1,3 +1,0 @@
-﻿  源.c
-D:\VS文件\practice-in-ACM\字符颠倒\草稿纸\源.c(22,7): warning C4013: “gets”未定义；假设外部返回 int
-  草稿纸.vcxproj -> D:\VS文件\practice-in-ACM\字符颠倒\Debug\草稿纸.exe
