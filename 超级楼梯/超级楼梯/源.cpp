@@ -14,7 +14,7 @@ int main() {
 		if (M == 3) {
 			printf("2\n");
 		}
-		for (int i = 4; i <= M; ++i) {
+		for (int i = 4; i <= M; ++i) {            //n阶，如果最后走俩阶，则前面情况是fn-2阶的走法，如果最后走1阶，则前面是fn-1的走法
 			fn = f2 + f3;
 			f2 = f3; f3 = fn;
 		}
