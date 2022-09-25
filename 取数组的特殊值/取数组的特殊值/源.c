@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 #include<string.h>       
-//Êı×éÖ±½Ó×ªÎªÕûĞÍµÄ·½·¨
+//æ•°ç»„ç›´æ¥è½¬ä¸ºæ•´å‹çš„æ–¹æ³•
 int main()
 {
 	int N;
@@ -11,12 +11,12 @@ int main()
 	{
 		int ret = 0;
 		char arr1[40] = { 0 }; char arr2[40] = { 0 };
-		gets(arr1);            //²»ÒªÓÃscanfÊäÈëÊı×é£¬Óöµ½¿Õ¸ñ¾ÍÃ»ÁË
+		gets(arr1);            //ä¸è¦ç”¨scanfè¾“å…¥æ•°ç»„ï¼Œé‡åˆ°ç©ºæ ¼å°±æ²¡äº†
 		int b = strlen(arr1);
 		for (int a = 0; a < b; a++)
 		{
 			if (arr1[a] >= '0' && arr1[a] <= '9')
-				ret = ret * 10 + arr1[a]-'0';    //Ç°ÃæµÄ*10£¬ÁôÏÂ¸öÎ»Êı²¹Ìî        -'0'ÊÇÒòÎªÊı×éÀïÃæµÄÊı×ÖÊÇÈç3£¬¶ø²»ÊÇ'3'
+				ret = ret * 10 + arr1[a]-'0';    //å‰é¢çš„*10ï¼Œç•™ä¸‹ä¸ªä½æ•°è¡¥å¡«        -'0'æ˜¯å› ä¸ºæ•°ç»„é‡Œé¢çš„æ•°å­—æ˜¯å¦‚3ï¼Œè€Œä¸æ˜¯'3'
 		}
 		int sum = ret * 513;
 		printf("%d\n", sum);
@@ -25,44 +25,6 @@ int main()
 
 	return 0;
 }
-
-
-//
-//int main()
-//{
-//	int N = 0;
-//	scanf("%d", &N);  //ÓĞN×é
-//	getchar();
-//	int i = 0; int sum = 0;
-//	for (i = 0; i < N; i++)
-//	{
-//		char arr1[100] = { 0 }; char arr2[40] = { 0 };         //32Î»ÀàĞÍÕûÊıÖ¸int,²»ÊÇ32¸öÊı×Ö£¬64Î»Ö¸long long
-//		gets(arr1);    //ÊäÈë²âÊÔ×Ö·û´®
-//		int a = 0, d = 0;
-//		int b = strlen(arr1);
-//		for (a = 0; a < b; a++)
-//		{
-//			if (arr1[a] <= '9' && arr1[a] >= '0')
-//			{
-//				arr2[d] = arr1[a];    //ÌáÈ¡×Ö·û´®ÖĞÊı×Ö×ªµ½ÁíÒ»Êı×é
-//				d++;
-//			}
-//		}
-//		int h;
-//		sscanf(arr2, "%d", &h);   //°ÑÊı×é×ªÎªÕûĞÍ
-//		sum = h * 513;
-//		printf("%d\n", sum);
-//	}
-//	return 0;
-//}
-
-           
-
-
-
-
-
-
 
 
 
