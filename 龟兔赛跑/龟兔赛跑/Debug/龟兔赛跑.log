@@ -1,0 +1,3 @@
+﻿  源.cpp
+D:\VS文件\practice-in-ACM\龟兔赛跑\龟兔赛跑\源.cpp(6,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  龟兔赛跑.vcxproj -> D:\VS文件\practice-in-ACM\龟兔赛跑\Debug\龟兔赛跑.exe
