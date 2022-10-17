@@ -1,4 +1,0 @@
-﻿  源.cpp
-D:\VS文件\practice-in-ACM\多级排序，逸天专备\多级排序，逸天专备\源.cpp(7,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-D:\VS文件\practice-in-ACM\多级排序，逸天专备\多级排序，逸天专备\源.cpp(32): warning C4715: “cmp1”: 不是所有的控件路径都返回值
-  多级排序，逸天专备.vcxproj -> D:\VS文件\practice-in-ACM\多级排序，逸天专备\Debug\多级排序，逸天专备.exe
