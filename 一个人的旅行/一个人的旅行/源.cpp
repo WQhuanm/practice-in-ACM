@@ -18,12 +18,12 @@ int maxn;
 void dijkstra() {
     memset(dis, 0x3f, sizeof(dis));  //每次进入dijkstra都应该重新初始化，不能受上一组的影响，所以book与dis的初始化应该写这里而不是主函数，而且是放最开头（循环外面）
     memset(book, 0, sizeof(book));
-    for (int i = 0; i <= maxn+1; ++i) {
+    for (int i = 0; i <= maxn+1; ++i) {//最多遍历n个点
         int tmp = -1;
         dis[0] = 0;
-        for (int j = 0; j <= maxn+1; ++j)if (!book[j] && (tmp == -1 || dis[j] < dis[tmp]))tmp = j;
+        for (int j = 0; j <= maxn+1; ++j)if (!book[j] && (tmp == -1 || dis[j] < dis[tmp]))tmp = j;//tmp=-1让第一个数进得来，   //这里求出离当前位置最近的点
         book[tmp] = 1;
-        for (int k = 1; k <= maxn+1; ++k)dis[k] = min(dis[k], arr[tmp][k] + dis[tmp]);
+        for (int k = 1; k <= maxn+1; ++k)dis[k] = min(dis[k], arr[tmp][k] + dis[tmp]);  //每次找到最近点，使最近点变为当前位置，刷新其他点到当前位置的距离
 
     }
    
