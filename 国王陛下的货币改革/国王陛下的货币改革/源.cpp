@@ -7,23 +7,20 @@ using namespace std;
 const int N = 300;
 int a[20];
 int b[400];
-int c[400];
+int dp[400];
 int main() {
 	int n;
 	for (int i = 1; i <= 17; ++i)a[i] = i * i;
+	dp[0] = 1;
 
-
-	for (int i = 0; i <= N; ++i)c[i] = 1;//先把只用1元存储
-
-
-	for (int i = 2; i <= 17; ++i)
+	for (int i = 1; i <= 17; ++i)
 	{
-	for (int j = 0; j <= N; ++j)for (int k = 0; k + j <= N; k += a[i])b[j + k] += c[j];//j+k表示已经使用j元，还有由一定数量a[i]组成的k元，有符合就加
-		   //b数组作为临时变量存储当前使用i种货币时，j+k元有多少种组合，不可以只用c数组，因为遍历时b[j]是越来越大，而加的值必须是上一组的，k=0就是为了存上一组的c[j]
-	for (int k = 0; k <= N; ++k) { c[k] = b[k]; b[k] = 0; }
+	for (int j = 0; j <= N; ++j)for (int k = 0; k + j <= N; k += a[i])b[j + k] += dp[j];//j+k表示已经使用j元，还有由一定数量a[i]组成的k元，有符合就加
+		   //b数组作为临时变量存储当前使用i种货币时，j+k元有多少种组合，不可以只用dp数组，因为遍历时b[j]是越来越大，而加的值必须是上一组的，k=0就是为了存上一组的dp[j]
+	for (int k = 0; k <= N; ++k) { dp[k] = b[k]; b[k] = 0; }
 	}
 	while (cin >> n && n) {
-		cout <<c[n]<< endl;
+		cout <<dp[n]<< endl;
 	}
 
 
