@@ -1,0 +1,3 @@
+﻿  源.cpp
+D:\VS文件\practice-in-ACM\解方程\解方程\源.cpp(10,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  解方程.vcxproj -> D:\VS文件\practice-in-ACM\解方程\Debug\解方程.exe
