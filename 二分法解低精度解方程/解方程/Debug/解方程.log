@@ -1,3 +1,0 @@
-﻿  源.cpp
-D:\VS文件\practice-in-ACM\解方程\解方程\源.cpp(12,39): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
-D:\VS文件\practice-in-ACM\解方程\解方程\源.cpp(13): error C4700: 使用了未初始化的局部变量“x”
