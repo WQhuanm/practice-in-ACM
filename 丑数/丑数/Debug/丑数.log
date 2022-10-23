@@ -1,7 +1,0 @@
-﻿  源.cpp
-D:\VS文件\practice-in-ACM\丑数\丑数\源.cpp(15,20): warning C4244: “=”: 从“const _Ty”转换到“int”，可能丢失数据
-          with
-          [
-              _Ty=__int64
-          ]
-  丑数.vcxproj -> D:\VS文件\practice-in-ACM\丑数\Debug\丑数.exe
